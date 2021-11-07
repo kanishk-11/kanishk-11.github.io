@@ -1,0 +1,237 @@
+
+/* background gradient animation */
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* clouds animations */
+
+@keyframes cl1 {
+    0% {
+        left: 10%;
+    }
+    25% {
+        left: 12%;
+    }
+    50% {
+        left: 10%;
+    }
+    75% {
+        left: 8%;
+    }
+    100% {
+        left: 10%;
+    }
+}
+@keyframes cl2 {
+    0% {
+        left: 65%;
+    }
+    25% {
+        left: 69%;
+    }
+    50% {
+        left: 65%;
+    }
+    75% {
+        left: 61%;
+    }
+    100% {
+        left: 65%;
+    }
+}
+@keyframes cl3 {
+    0% {
+        left: 40%;
+    }
+    25% {
+        left: 41%;
+    }
+    50% {
+        left: 40%;
+    }
+    75% {
+        left: 39%;
+    }
+    100% {
+        left: 40%;
+    }
+}
+@keyframes cl4 {
+    0% {
+        left: 90%;
+    }
+    25% {
+        left: 95%;
+    }
+    50% {
+        left: 90%;
+    }
+    75% {
+        left: 85%;
+    }
+    100% {
+        left: 90%;
+    }
+}
+@keyframes cl5 {
+    0% {
+        left: 15%;
+    }
+    25% {
+        left: 22%;
+    }
+    50% {
+        left: 15%;
+    }
+    75% {
+        left: 8%;
+    }
+    100% {
+        left: 15%;
+    }
+}
+@keyframes cl6 {
+    0% {
+        left: 80%;
+    }
+    25% {
+        left: 85%;
+    }
+    50% {
+        left: 80%;
+    }
+    75% {
+        left: 75%;
+    }
+    100% {
+        left: 80%;
+    }
+}
+@keyframes cl7 {
+    0% {
+        left: 25%;
+    }
+    25% {
+        left: 22%;
+    }
+    50% {
+        left: 25%;
+    }
+    75% {
+        left: 28%;
+    }
+    100% {
+        left: 25%;
+    }
+}
+
+/* circles behind image in home-div */
+@keyframes a1 {
+    0% {
+        height: 15rem;
+        width: 15rem;
+    }
+    50% {
+        height: 25rem;
+        width: 25rem;
+    }
+    100% {
+        height: 15rem;
+        width: 15rem;
+    }
+}
+@keyframes a2 {
+    0% {
+        height: 15rem;
+        width: 15rem;
+    }
+    50% {
+        height: 22.5rem;
+        width: 22.5rem;
+    }
+    100% {
+        height: 15rem;
+        width: 15rem;
+    }
+}
+@keyframes a3 {
+    0% {
+        height: 15rem;
+        width: 15rem;
+    }
+    50% {
+        height: 27.5rem;
+        width: 27.5rem;
+    }
+    100% {
+        height: 15rem;
+        width: 15rem;
+    }
+}
+@keyframes a4 {
+    0% {
+        height: 25rem;
+        width: 25rem;
+    }
+    50% {
+        height: 15rem;
+        width: 15rem;
+    }
+    100% {
+        height: 25rem;
+        width: 25rem;
+    }
+}
+@keyframes a5 {
+    0% {
+        height: 22.5rem;
+        width: 22.5rem;
+    }
+    50% {
+        height: 15rem;
+        width: 15rem;
+    }
+    100% {
+        height: 22.5rem;
+        width: 22.5rem;
+    }
+}
+@keyframes a6 {
+    0% {
+        height: 27.5rem;
+        width: 27.5rem;
+    }
+    50% {
+        height: 15rem;
+        width: 15rem;
+    }
+    100% {
+        height: 27.5rem;
+        width: 27.5rem;
+    }
+}
+
+/* animation of name on home-div */
+@keyframes name-anim {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(15deg);
+    }
+    50% {
+        transform: rotate(-15deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
