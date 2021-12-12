@@ -523,7 +523,7 @@ a {
 }
 
 #web-dev .info {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
 }
 #ml .info {
     grid-template-columns: auto;
